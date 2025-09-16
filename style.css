@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(74, 139, 182);
     padding: 0px;
     margin: 0px;
 }
@@ -14,9 +14,9 @@ body{
     display: flex;
 }
 .card{
-    background-color: rgb(88, 88, 88);
+    background-color: rgb(228, 228, 228);
     margin: 25px 25px;
-    width: 250px;
+    width: 270px;
     height: 400px;
     border-radius: 15px;
     text-align: center;
@@ -25,4 +25,16 @@ body{
 
 .card:hover{
     transform: scale(1.05);
+}
+
+img{
+    width: 270px;
+    height: 180px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.cardText{
+    font-size: 25px;
+    text-align: center;
+    
 }
